@@ -1,0 +1,176 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = PP
+Directory = C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - Excluded Runs
+---------------------------
+The run results were excluded for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/adder_16b.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/adder_4b.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/bne_unit.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/clock_divider.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/control_unit.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/data_memory.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/debounce.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/dispatch.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/display.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/instruction_memory.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/led_displays.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/mux_2to1_16b.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/mux_2to1_1b.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/mux_2to1_4b.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/pipeline_core.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/program_counter.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/register_file.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/saturator.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/sign_extend_4to16.vhd
+C:/Users/PC/Documents/Vivado/Lab02 - 3211/PP/VHDL/pipeline_TB_VHDL.vhd
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./PP.srcs/sources_1/imports/VHDL/adder_16b.vhd
+./PP.srcs/sources_1/imports/VHDL/adder_4b.vhd
+./PP.srcs/sources_1/imports/VHDL/bne_unit.vhd
+./PP.srcs/sources_1/imports/VHDL/clock_divider.vhd
+./PP.srcs/sources_1/imports/VHDL/control_unit.vhd
+./PP.srcs/sources_1/imports/VHDL/data_memory.vhd
+./PP.srcs/sources_1/imports/VHDL/debounce.vhd
+./PP.srcs/sources_1/imports/VHDL/dispatch.vhd
+./PP.srcs/sources_1/imports/VHDL/display.vhd
+./PP.srcs/sources_1/new/ex_mem_reg.vhd
+./PP.srcs/sources_1/new/id_ex_reg.vhd
+./PP.srcs/sources_1/new/if_id_reg.vhd
+./PP.srcs/sources_1/imports/VHDL/instruction_memory.vhd
+./PP.srcs/sources_1/imports/VHDL/led_displays.vhd
+./PP.srcs/sources_1/imports/VHDL/mux_2to1_16b.vhd
+./PP.srcs/sources_1/imports/VHDL/mux_2to1_1b.vhd
+./PP.srcs/sources_1/imports/VHDL/mux_2to1_4b.vhd
+./PP.srcs/sources_1/imports/VHDL/pipeline_core.vhd
+./PP.srcs/sources_1/imports/VHDL/program_counter.vhd
+./PP.srcs/sources_1/imports/VHDL/register_file.vhd
+./PP.srcs/sources_1/imports/VHDL/saturator.vhd
+./PP.srcs/sources_1/imports/VHDL/sign_extend_4to16.vhd
+./PP.srcs/sources_1/imports/VHDL/pipeline_TB_VHDL.vhd
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<utils_1>
+./PP.srcs/utils_1/imports/synth_1/pipeline_TB_VHDL.dcp
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+./PP.board/basys3
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/PC/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./PP/vivado.jou
+
+Source File = C:/Users/PC/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./PP/vivado.log
+

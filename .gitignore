@@ -1,0 +1,29 @@
+# --- Vivado Logs and Journals ---
+*.log
+*.jou
+*.pb
+*.str
+*.os
+vivado_pid*.str
+hs_err_pid*.log
+
+# --- Vivado Work Directories (Generated) ---
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# --- Compiled Hardware Artifacts ---
+*.bit
+*.bin
+*.mcs
+*.prm
+*.dcp
+
+# --- Vitis / SDK Software Artifacts (If applicable) ---
+*.elf
+*.vstf
+.metadata/
+RemoteSystemsTempFiles/
