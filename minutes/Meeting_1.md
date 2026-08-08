@@ -2,16 +2,17 @@
 
 | Date       | Time   | Loaction  | Attendees  | Note Taker |
 | ---------- | ------ | --------- | ---------- | ---------- |
-| 17/07/2026 | 2-4 pm | CSE Lyre | Yuheng(Andy), Sam, Ryan, Quanlin, James | Yuheng (Andy) |
+| 17/07/2026 | 3-4 pm | CSE Lyre | Yuheng(Andy), Sam, Ryan, Quanlin, James | Yuheng (Andy) |
 
 ## Discussed Items:
-Task allocations
-* Data hazard -  Ryan
-* Data memory and instruction memory - Sam
-* Coprocessor FSM - Quanlin, Andy, James
-Draw the FSM and meet in person on Friday to finalize the design
+* Whether we should create a new instruction “BEQ” or we just keep “BNE”
+    * We use “BNE”
+* Data hazard should be handled (i.e. both stalling and forwarding)
+* Whether we use fixed vector size
+* Special instructions in coprocessor
+* Coprocessor (FSM)
+* ISA
 
-## Actionable (Before weekend):
-* Ryan should resolve data hazard before Friday
-* Andy, James, and Quanlin draw the FSM for coprocessor and meet in person on Friday to finalize the design
-* Sam will update the progress on Friday 
+
+## Actionable (Weekend):
+* Send out our pipeline processor archives to group chat and decide which/whose pipeline processor to use
