@@ -9,7 +9,6 @@ Task allocations
 * Data hazard - Ryan
 * Data memory and instruction memory - Sam
 * Coprocessor FSM - Quanlin, Andy, James
-Draw the FSM and meet in person on Friday to finalize the design
 
 ## Actionable (Before weekend):
 * Ryan should resolve data hazard before Friday
